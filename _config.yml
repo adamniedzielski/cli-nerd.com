@@ -7,5 +7,5 @@ url: "http://cli-nerd.com"
 twitter_username: damienklinnert
 github_username:  damienklinnert
 
-# Build settings
 markdown: kramdown
+highlighter: pygments
