@@ -2,7 +2,7 @@ title: cli-nerd.com
 email: mail@damienklinnert.de
 description: >
   A blog about my insights into software development (the more valuable ones).
-baseurl: "/cli-nerd.com"
+baseurl: ""
 url: "http://cli-nerd.com"
 twitter_username: damienklinnert
 github_username:  damienklinnert
