@@ -3,7 +3,7 @@ layout: post
 title: "$provide.decorator()"
 date: 2014-05-08 09:41:19 +0200
 comments: true
-categories: angular
+categories: blog
 permalink: /blog/2014/05/08/$provide-dot-decorator.html
 ---
 
