@@ -1,9 +1,10 @@
 title: cli-nerd.com
 email: mail@damienklinnert.de
 description: >
-  A blog about my insights into software development (the more valuable ones).
+  Thoughts and concepts of software engineering for web development
 baseurl: ""
 url: "http://cli-nerd.com"
+author: Damien Klinnert
 twitter_username: damienklinnert
 github_username:  damienklinnert
 
