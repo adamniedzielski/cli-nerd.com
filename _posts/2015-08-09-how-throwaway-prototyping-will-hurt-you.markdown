@@ -22,7 +22,7 @@ Shortly after collecting the initial feedback from the prototype, we would then 
 
 Although this reads like the story of a great success, there’s a  huge problem.
 
-When building throwaway prototypes, we would always sacrifice quality for the sake of development speed. This is only acceptable as long as we throw the code away afterwards. But as we started iterating on the prototype, we made this low quality code the foundation of our new product. The result: a [big ball of mud] that would slow us down significantly.
+When building throwaway prototypes, we would always sacrifice quality for the sake of development speed. This is only acceptable as long as we throw the code away afterwards. But as we started iterating on the prototype, we made this low quality code the foundation of our new product. The result: a big ball of mud that would slow us down significantly.
 
 
 ### Building A Strong Foundation
