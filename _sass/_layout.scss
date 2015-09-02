@@ -30,9 +30,34 @@
 .site-nav {
     float: right;
     line-height: 56px;
+    position: relative;
+    top: 9px;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: right;
 
     .menu-icon {
-        display: none;
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center;
+
+        > svg {
+            width: 18px;
+            height: 15px;
+
+            path {
+                fill: $grey-color-dark;
+            }
+        }
+    }
+
+    &:hover {
+        border-color: $grey-color-dark;
     }
 
     .page-link {
@@ -53,25 +78,6 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
 
         .trigger {
             clear: both;
