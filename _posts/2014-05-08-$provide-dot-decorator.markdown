@@ -7,7 +7,7 @@ categories: blog
 permalink: /blog/2014/05/08/$provide-dot-decorator.html
 ---
 
-## Modifying the behavior of AngularJS' core services
+a.k.a. "Modifying the behavior of AngularJS' core services"
 
 After using [Batarang](https://chrome.google.com/webstore/detail/angularjs-batarang/ighdmehidhipcmcojjgiloacoafjmpfk), I wondered how they are able to collect performance metrics at this level of detail. Thoughts full of horrible code rushed to my mind. I opened the source code in fear, always ready to close it as fast as possible. After some reading, I discovered [these lines](https://github.com/angular/angularjs-batarang/blob/master/js/inject/debug.js#L712):
 

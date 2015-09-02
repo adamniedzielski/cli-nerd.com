@@ -5,9 +5,7 @@ date: 2015-07-30 09:41:19 +0200
 comments: true
 ---
 
-A couple of days ago, I stumbled over the following question:
-
-> What have you done to make the world a better place?
+A couple of days ago, I stumbled over the question: "What have you done to make the world a better place?"
 
 This is a simple question. It’s only a couple of words. You don’t need to be incredibly creative or spend hours reasoning about ethics; answering it should be as straightforward as jotting down a bullet point list.
 

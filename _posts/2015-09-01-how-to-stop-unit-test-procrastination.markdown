@@ -4,7 +4,7 @@ title: "How To Crush Unit Test Procrastination"
 date: 2015-09-01 22:00:00 +1000
 ---
 
-Recently I reviewed a couple of changes to a legacy code base. Neither the new nor the old code were tested. Nevertheless, I asked the author to write some unit tests for the new code. He disagreed:
+Recently I reviewed a couple of changes to a legacy code base. Neither the new nor the old code were tested. Nevertheless, I asked the author to write some unit tests for the new code. He disagreed.
 
 > “Look, I know that the project has a quality problem. But instead of writing some tests for the new stuff now, lets write all the tests for the core logic later. The test coverage needs to reflect the important pieces of the code base.”
 
