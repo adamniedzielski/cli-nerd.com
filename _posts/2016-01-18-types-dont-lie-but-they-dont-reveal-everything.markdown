@@ -35,4 +35,4 @@ Oops! My implementation completely ignored the monadic context. The correct impl
 
 Looks slightly more complex, but it's really nothing more than invoking `>>=` and discarding its result.
 
-A small mistake, but a great example that you can't necessarily guess a function's implementation just from it's type signature.
+A small mistake, but a great example that you can't necessarily guess a function's implementation just from its type signature.
