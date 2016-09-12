@@ -32,7 +32,7 @@ language:
    ````elm
    add a b = a + b
    ````
-   *In JavaScript this would look like `function add(a, b) { a + b }`*
+   *In JavaScript this would look like `function add(a, b) { return a + b }`*
 
 3. Applying the `add function` to two numbers
 
