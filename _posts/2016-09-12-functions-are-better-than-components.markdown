@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Functions > Components"
+title: "Functions + State Management > Components"
 date: 2016-09-12 21:00:00 +1100
 ---
 
@@ -12,8 +12,8 @@ Then, last week, I introduced one of my team members to [React](https://facebook
 library for building UIs (he's unfamiliar with frontend development). Walking him through the code I've
 realised how complex React actually is – and how much explanation was necessary to get him to be productive.
 
-I'd like to share my observations and explain how they let me to believe that functions are a much better way
-of building UIs than React components are.
+I'd like to share my observations and explain how they let me to believe that pure functions in combination with
+state management are a much better way of building UIs than React components are.
 
 
 ## A Quick Intro to Elm's Syntax
@@ -200,20 +200,23 @@ Ok, I think now we've covered the minimum fundamentals required to build somethi
 beginner is .. tough.
 
 
-## Functions > Components?
+## Functions + State Management > Components?
 
 Time to reflect on what we've covered. To build the same basic UI,
 
 - in Elm, all we need is functions and values
 - in React, we had to understand JSX, components, props and the different way of making components
 
-What's remarkable here is that Elm is a language, whearas React is supposed to be just a library. One would expect
+What's remarkable here is that Elm is a language, whereas React is supposed to be just a library. One would expect
 that learning a completely new language is harder and more complex than just using a library. However, from my
 experience that's not the case here.
 
-
 Don't get me wrong; I think React is a great tool and a huge step forward when compared to previous approaches to
 JavaScript application development. However, since I've learned about Elm I doubt that it's the best tool available.
+
+*As [@mjackson](https://twitter.com/mjackson) pointed out, React components are also offering an approach to state
+management. To be fair, one would have to compare functions + Elm's state management to React components. This however goes
+beyond the scope of this article.*
 
 If this post got you interested in Elm, give it a try!
 
