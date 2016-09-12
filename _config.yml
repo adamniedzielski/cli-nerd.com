@@ -9,4 +9,4 @@ twitter_username: damienklinnert
 github_username:  damienklinnert
 
 markdown: kramdown
-highlighter: pygments
+#highlighter: pygments
