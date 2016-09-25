@@ -17,10 +17,6 @@
     margin-bottom: 0;
     float: left;
 
-    &:after {
-        content: " $"
-    }
-
     &,
     &:visited {
         color: $grey-color-dark;
