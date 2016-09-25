@@ -7,19 +7,19 @@ date: 2016-09-25 22:00:00 +1100
 I've spent a significant amount of my career investigating, handling and raising all
 sorts of errors – be it logical and fencepost errors, disk and network failures or compiler errors and runtime
 exceptions. Some are more likely to occur, others might have a bigger impact. They all have one thing in common
-though: Someone will need to deal with them.
+though: Someone has to deal with them.
 
 
 ## Well-Designed Errors Yield Better Programs
 
-Before I've got into functional programming, I've never really thought about errors in general. Sure, I would
+Before I've got into functional programming, I'd never really thought about errors in general. Sure, I would
 add some *null checks* here and there or maybe wrap a piece of code with a *try .. catch* block. But I didn't
 really think about underlying concepts, principles and techniques of handling errors.
 
 However, *Haskell* and *Elm* changed that for two reasons.
 
 1. *Haskell* has made me familiar with ideas like `Maybe`, `Either` and `IO`.
-1. *Elm* has shown me what a [well-designed compiler error](http://elm-lang.org/blog/compiler-errors-for-humans)
+1. *Elm* has shown me what [well-designed compiler errors](http://elm-lang.org/blog/compiler-errors-for-humans)
    should look like:
 
 
@@ -38,11 +38,11 @@ However, *Haskell* and *Elm* changed that for two reasons.
    ````
 
 
-Thanks to those languages, I'm now convinced that the way we deal with errors has a big impact on the quality of
+Thanks to these languages, I'm now convinced that the way we deal with errors has a huge impact on the quality of
 our programs. This implies that we can improve the quality of our programs by improving the quality of the errors
 that we raise and expose.
 
-To have our own errors match the quality of the *Elm* compiler, we need to focus on our users when designing them.
+To have our own errors match the quality of the *Elm* compiler, we need to focus on our users while designing them.
 
 ## Qualities of Well-Designed Errors
 
@@ -51,7 +51,7 @@ two important guidelines:
 
 1. Before exposing an error to a user think really hard about it. Can you handle the error in your own program,
    without exposing it to the user? While this is preferred, it only applies to a small subset of errors. A hidden
-   error can lead to pretty frustrating debugging sessions. If in doubt, expose the error!
+   error can lead to pretty frustrating debugging sessions. When in doubt, expose the error!
 
 1. Do everything you can to help your users handle the error correctly. This might seem obvious to you, but the
    majority of errors I've encountered look as if no one ever considered this.
@@ -73,7 +73,7 @@ Here's a couple of ideas to help you get started:
   terminology.
 - **Group related errors** into the same namespace / module / file. This makes it easier to get an overview of what
   else could go wrong.
-- **Utilise the type system** if you can. Ideally the types tell me what kind of errors can occur for each operation.
+- **Utilise the type system** if you can. Ideally the types tell you what kind of errors can occur for each operation.
 - **Recommend solutions** in your documentation. Let your users know what they need to do to prevent this error from
   happening again.
 
