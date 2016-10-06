@@ -24,8 +24,8 @@ Ah, and before I forget: If you know other books that you think should be on thi
 
 **The Idea Factory: Bell Labs and the Great Age of American Innovation** by Jon Gertner ([Amazon](https://www.amazon.com/Idea-Factory-Great-American-Innovation/dp/0143122797/))
 
-Learn how a single company discovered, invented and created pretty much all major foundations for modern computing; here's a few of them:
-transistors, information theory, modern cryptography, optical fibers, Unix, C, C++.
+Learn how a single company discovered, invented and created pretty much all major foundations for modern computing; here's a few of those:
+transistors, information theory, modern cryptography, optical fibers, Unix, C, C++ (even though not all are covered by the book).
 
 <br style="clear:left" />
 
