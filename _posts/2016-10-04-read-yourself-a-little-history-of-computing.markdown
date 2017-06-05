@@ -55,6 +55,16 @@ and designers and envisioned the future almost a century before *Apple* and *Mic
 
 
 
+<img src="/images/books/commodore.jpg" style="float: left; padding: 10px;" width="100" />
+
+**Commodore: A Company on the Edge** by Brian Bagnall  ([Amazon](https://www.amazon.com/Commodore-Company-Edge-Brian-Bagnall-ebook/dp/B0087HTJNC/))
+
+You've probably already heard about or even seen a *Commodore 64* computer. This book tells the remarkable story of the first company to sell one million personal computers. You'll also learn about the *MOS 6502 chip* and the earlier computers: the *PET 2001* and the *VIC-20*.
+
+<br style="clear:left" />
+
+
+
 <img src="/images/books/jobs.jpg" style="float: left; padding: 10px;" width="100" />
 
 **Steve Jobs** by Walter Isaacson  ([Amazon](https://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537))
