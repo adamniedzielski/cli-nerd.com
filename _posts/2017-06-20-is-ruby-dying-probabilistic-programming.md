@@ -143,7 +143,7 @@ In our case, a good way to distinguish the groups from each other would be the m
 
 ## The Mean Value of Attendees
 
-We'll get the mean value of attendees for each group by summing the number of attendees for all meetups and deviding it by the number of meetups.
+We'll get the mean value of attendees for each group by summing the number of attendees for all meetups and dividing it by the number of meetups.
 
 Just as an exercise, this is the mean value of attendees for all meetups:
 
